@@ -1,0 +1,9 @@
+# Cesta do IT
+
+Kariérní koučink a mentoring pro začínající programátory.
+Web nabízí služby Petra Fialy, zkušeného programátora a mentora.
+
+## Obsah
+- Úvodní stránka s nabídkou služeb
+- Informace o mentorovi
+- Ceník a kontaktní formulář

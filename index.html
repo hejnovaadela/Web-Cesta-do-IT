@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Získejte svou první práci v IT s pomocí zkušeného mentora. Cesta do IT – kariérní koučink pro začínající programátory.">
+    <meta name="author" content="Petr Fiala">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.cestadoit.cz/">
+    <meta property="og:title" content="Cesta do IT - Kariérní koučink pro programátory">
+    <meta property="og:description"
+        content="Pomohu vám získat první práci v IT. Mentoring, úprava CV, příprava na pohovory.">
+    <meta property="og:image" content="https://www.cestadoit.cz/Obrazky/hero.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.cestadoit.cz/">
+    <meta property="twitter:title" content="Cesta do IT - Kariérní koučink pro programátory">
+    <meta property="twitter:description"
+        content="Pomohu vám získat první práci v IT. Mentoring, úprava CV, příprava na pohovory.">
+    <meta property="twitter:image" content="https://www.cestadoit.cz/Obrazky/hero.jpg">
+
+    <title>Cesta do IT | Kariérní koučink pro začínající programátory</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="canonical" href="https://www.cestadoit.cz/">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="Obrazky/logo.jpeg" alt="Cesta do IT logo" width="150" height="50">
+            </a>
+            <button class="menu-toggle" aria-label="Otevřít menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#pro-koho" class="nav-link">Pro koho</a></li>
+                    <li class="nav-item"><a href="#jak-pomohu" class="nav-link">Jak vám pomohu</a></li>
+                    <li class="nav-item"><a href="#kudy-vede-cesta" class="nav-link">Cesta</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#o-mne" class="nav-link">O mně</a></li>
+                    <li class="nav-item"><a href="#reference" class="nav-link">Reference</a></li>
+                    <li class="nav-item"><a href="#cenik" class="nav-link">Ceník</a></li>
+                    <li class="nav-item"><a href="#kontakt" class="btn btn-primary nav-cta">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero relative">
+            <div class="hero-bg-shape"></div>
+            <div class="container hero-container">
+                <div class="hero-content" data-animate="fade-up">
+                    <span class="badge">PŘEKONEJ SVÉ PŘEKÁŽKY</span>
+                    <h1 class="display-1">Získejte svou <span class="highlight">první práci v IT,</span> i když váš
+                        životopis zatím <span class="text-muted-dark">zeje prázdnotou.</span></h1>
+
+                    <div class="hero-problem-box">
+                        <p>Většina začínajících programátorů narazí na <strong>začarovaný kruh</strong>:</p>
+                        <div class="vicious-circle">
+                            <span>K práci potřebujete <span class="txt-accent">praxi</span></span>
+                            <i class="bi bi-arrow-right"></i>
+                            <span>K praxi potřebujete <span class="txt-accent">práci</span></span>
+                        </div>
+                    </div>
+
+                    <p class="hero-solution-lead">Ukážu vám, jak tento kruh rozbít, jak postavit portfolio, které
+                        zaujme, a jak projít pohovorem i bez let zkušeností v oboru.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#kontakt" class="btn btn-primary btn-lg shadow-hover">MÁM ZÁJEM 🚀</a>
+                        <a href="#pro-koho" class="btn btn-outline btn-lg">VÍCE INFORMACÍ</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">let praxe</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">individuální přístup</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper" data-animate="fade-in">
+                    <div class="image-blob"></div>
+                    <img src="Obrazky/hero.jpg" alt="Ilustrace koučování a IT cesty" class="hero-img floating"
+                        decoding="sync">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Pro koho -->
+        <section id="pro-koho" class="section section-pro-koho">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <span class="subtitle">PRO KOHO</span>
+                    <h2>Kdy vám mentoring pomůže?</h2>
+                    <p class="section-desc">Možná se v jednom z těchto bodů poznáte. Pokud ano, jsme na dobré cestě.</p>
+                </div>
+
+                <div class="grid-cards">
+                    <div class="feature-card" data-animate="fade-up" data-delay="100">
+                        <div class="icon-wrapper">
+                            <i class="bi bi-arrow-repeat"></i>
+                        </div>
+                        <h3>Měníte kariéru</h3>
+                        <p>Míříte do IT z úplně jiného oboru a nevíte, kde začít a jak využít své dosavadní zkušenosti.
+                        </p>
+                    </div>
+
+                    <div class="feature-card" data-animate="fade-up" data-delay="200">
+                        <div class="icon-wrapper">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h3>Po kurzu / rekvalifikaci</h3>
+                        <p>Máte papír, ale stále se necítíte připraveni na reálnou práci nebo pohovory.</p>
+                    </div>
+
+                    <div class="feature-card" data-animate="fade-up" data-delay="300">
+                        <div class="icon-wrapper">
+                            <i class="bi bi-book"></i>
+                        </div>
+                        <h3>Samouk</h3>
+                        <p>Učíte se sami, ale ztrácíte se v množství informací a nevíte, co je pro trh relevantní.</p>
+                    </div>
+
+                    <div class="feature-card" data-animate="fade-up" data-delay="400">
+                        <div class="icon-wrapper">
+                            <i class="bi bi-send-x"></i>
+                        </div>
+                        <h3>Bez odezvy</h3>
+                        <p>Posíláte životopisy, ale nikdo neodpovídá. Pomohu vám najít chybu a opravit ji.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jak vám pomohu -->
+        <section id="jak-pomohu" class="section section-dark">
+            <div class="container">
+                <div class="row items-center">
+                    <div class="col-text" data-animate="fade-right">
+                        <span class="subtitle">JAK VÁM POMOHU</span>
+                        <h2>Komplexní příprava na kariéru</h2>
+                        <p>Není to jen o kódování. Je to o strategii, prezentaci a psychologii.</p>
+
+                        <div class="service-list">
+                            <div class="service-item">
+                                <div class="check-icon"><i class="bi bi-check-lg"></i></div>
+                                <div>
+                                    <h4>Studijní plán na míru</h4>
+                                    <p>Efektivní cesta bez zbytečných odboček.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="check-icon"><i class="bi bi-check-lg"></i></div>
+                                <div>
+                                    <h4>Portfolio, které prodává</h4>
+                                    <p>Ukážeme to, co firmy opravdu chtějí vidět.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="check-icon"><i class="bi bi-check-lg"></i></div>
+                                <div>
+                                    <h4>Vyladěné CV a LinkedIn</h4>
+                                    <p>Abyste prošli přes HR filtry.</p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="check-icon"><i class="bi bi-check-lg"></i></div>
+                                <div>
+                                    <h4>Příprava na pohovory</h4>
+                                    <p>Simulace otázek a zvládání stresu.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-action">
+                            <a href="#cenik" class="btn btn-primary">Chci začít spolupráci</a>
+                        </div>
+                    </div>
+                    <div class="col-image" data-animate="fade-left">
+                        <div class="abstract-image-composition">
+                            <!-- Placeholder for abstract composition or illustration -->
+                            <div class="composition-circle"></div>
+                            <div class="composition-card glass">
+                                <i class="bi bi-code-slash"></i>
+                                <span>Kódování</span>
+                            </div>
+                            <div class="composition-card glass card-2">
+                                <i class="bi bi-person-workspace"></i>
+                                <span>Soft-skills</span>
+                            </div>
+                            <div class="composition-card glass card-3">
+                                <i class="bi bi-rocket-takeoff"></i>
+                                <span>Kariéra</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kudy vede cesta (Roadmap) -->
+        <section id="kudy-vede-cesta" class="section section-roadmap relative">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <span class="subtitle">PROCES</span>
+                    <h2>Kudy vede cesta</h2>
+                    <p>Pět kroků k vaší nové práci.</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+
+                    <div class="timeline-item" data-animate="fade-up">
+                        <div class="timeline-dot">1</div>
+                        <div class="timeline-content box-shadow">
+                            <h3>Úvodní konzultace zdarma</h3>
+                            <p>Poznáme se a načrtneme cestu k vaší nové kariéře. Zjistíme, jestli si sedneme.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-animate="fade-up">
+                        <div class="timeline-dot">2</div>
+                        <div class="timeline-content box-shadow">
+                            <h3>Analýza vaší situace</h3>
+                            <p>Zhodnotíme vaše současné znalosti, zkušenosti a definujeme reálné cíle.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-animate="fade-up">
+                        <div class="timeline-dot">3</div>
+                        <div class="timeline-content box-shadow">
+                            <h3>Plán postupu</h3>
+                            <p>Vytvoříme konkrétní roadmapu. Co se doučit, co vytvořit, kam směřovat.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-animate="fade-up">
+                        <div class="timeline-dot">4</div>
+                        <div class="timeline-content box-shadow">
+                            <h3>Mentoring & Tvorba</h3>
+                            <p>Pravidelné konzultace, code reviews, práce na portfoliu a příprava CV.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-animate="fade-up">
+                        <div class="timeline-dot">5</div>
+                        <div class="timeline-content box-shadow">
+                            <h3>Aktivní hledání & Úspěch</h3>
+                            <p>Reakce na nabídky, příprava na konkrétní výběrová řízení a vyjednávání o platu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="section section-faq bg-cream-light">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <span class="subtitle">FAQ</span>
+                    <h2>Často kladené otázky</h2>
+                </div>
+
+                <div class="faq-grid" data-animate="fade-up">
+                    <details class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">Je správná doba stát se programátorem?<span class="icon"></span>
+                        </summary>
+                        <div class="faq-content" itemscope itemprop="acceptedAnswer"
+                            itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Ano. Umělá inteligence není náhrada programátorů, ale nástroj. Díky ní
+                                vzniká více softwaru a poptávka po IT lidech dlouhodobě roste. Firmy stále hledají lidi,
+                                kteří umí tyto nástroje používat a řešit problémy.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">Proč jsem správná osoba, která vám pomůže?<span class="icon"></span>
+                        </summary>
+                        <div class="faq-content" itemscope itemprop="acceptedAnswer"
+                            itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Díky své specifické kariérní cestě mám opakované zkušenosti, jak uspět u
+                                pohovoru na programátora i bez silného CV nebo dlouhé praxe. Vím, na co se ptají a co
+                                chtějí slyšet.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">Jak se mi povedlo uspět u pohovorů bez praxe?<span class="icon"></span>
+                        </summary>
+                        <div class="faq-content" itemscope itemprop="acceptedAnswer"
+                            itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Díky cílené přípravě, silnému portfoliu a schopnosti ukázat reálné
+                                dovednosti místo jen formální praxe. Přesně to naučím i vás.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">Je potřeba závazně objednat počet hodin?<span class="icon"></span>
+                        </summary>
+                        <div class="faq-content" itemscope itemprop="acceptedAnswer"
+                            itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Ne. Délka spolupráce čistě závisí na přání klienta. Od jednorázové
+                                konzultace CV až po dlouhodobý mentoring. Vše je na domluvě.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <summary itemprop="name">Hodí se má základní úroveň?<span class="icon"></span></summary>
+                        <div class="faq-content" itemscope itemprop="acceptedAnswer"
+                            itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Ano. Tato služba je cílená jako přemostění od samostudia k získání první
+                                práce. Nasměruji vás v tom, co se doučit, a pomohu vám získat sebevědomí v tom, co už
+                                umíte.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- O mně -->
+        <section id="o-mne" class="section section-about">
+            <div class="container">
+                <div class="about-wrapper box-shadow" data-animate="fade-up">
+                    <div class="about-content">
+                        <span class="subtitle">O MNĚ</span>
+                        <h2>Petr Fiala</h2>
+                        <p class="lead">Programátor, mentor a průvodce světem IT.</p>
+                        <p>Původně jsem vystudovaný strojní inženýr, nyní pracuji jako programátor ve firmě
+                            <strong>Oracle</strong>.
+                        </p>
+                        <p>Během 15 let jsem opakovaně úspěšně absolvoval výběrová řízení na pozici programátora, i když
+                            jsem neměl dlouhodobou praxi, která by mi pohovory výrazně usnadnila. Tuto "nevýhodu" jsem
+                            se naučil proměnit v přednost.</p>
+                        <p>Výuce programování se věnuji dlouhodobě. V rámci mentoringu jsem své klienty často provázel i
+                            procesem hledání práce a pomáhal jim uspět u pohovorů.</p>
+                    </div>
+                    <div class="about-visual">
+                        <!-- If a photo is available, it goes here. Otherwise, a stylized graphic. -->
+                        <div class="profile-card">
+                            <img src="Obrazky/Petr Fiala.jpg" alt="Petr Fiala" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reference -->
+        <section id="reference" class="section section-testimonials">
+            <div class="container">
+                <div class="section-header text-center" data-animate="fade-up">
+                    <span class="subtitle">REFERENCE</span>
+                    <h2>Příběhy úspěchu</h2>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card" data-animate="fade-up" data-delay="100">
+                        <div class="quote-mark">“</div>
+                        <p class="testimonial-text">Na pana Fialu jsem narazil ve chvíli, kdy jsem potřeboval pomoci s
+                            dokončením studia na ČVUT. Jeho konzultace byly natolik přínosné, že se mi podařilo školu
+                            úspěšně dostudovat a následně získat první práci.</p>
+                        <div class="testimonial-author">
+                            <div class="avatar-placeholder">H</div>
+                            <div>
+                                <strong>Honza</strong>
+                                <span>Absolvent ČVUT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-animate="fade-up" data-delay="200">
+                        <div class="quote-mark">“</div>
+                        <p class="testimonial-text">Petr mi vysvětlil, jak se na pohovoru chovat a jak se "prodat".
+                            Výsledkem bylo přijetí do tří firem současně. Bez jeho zkušeností by moje úspěšnost byla
+                            nepochybně nižší.</p>
+                        <div class="testimonial-author">
+                            <div class="avatar-placeholder">J</div>
+                            <div>
+                                <strong>Jiří</strong>
+                                <span>AI Specialista</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card" data-animate="fade-up" data-delay="300">
+                        <div class="quote-mark">“</div>
+                        <p class="testimonial-text">Petra vřele doporučuji jako profesionálního konzultanta pro kariérní
+                            rozhodování. Sám jsem nečekal, jaký vliv na můj profesní posun bude mít člověk, na kterého
+                            jsem narazil v podstatě náhodou.</p>
+                        <div class="testimonial-author">
+                            <div class="avatar-placeholder">Z</div>
+                            <div>
+                                <strong>Zdeněk</strong>
+                                <span>Klient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ceník -->
+        <section id="cenik" class="section section-pricing">
+            <div class="container">
+                <div class="pricing-wrapper" data-animate="zoom-in">
+                    <div class="pricing-card main-offer">
+                        <div class="pricing-header">
+                            <h3>Individuální mentoring</h3>
+                            <p>Osobní přístup a maximální efektivita.</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="amount">660</span>
+                            <span class="currency">&nbsp;Kč</span>
+                            <span class="period">&nbsp;/&nbsp;hod</span>
+                        </div>
+                        <div class="pricing-badge">Zaváděcí cena (sleva 70%)</div>
+                        <p class="original-price">Běžná cena: <del>2200&nbsp;Kč</del></p>
+
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check-circle-fill"></i> Konzultace technických témat</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Code review portfolia</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Příprava CV a motivačního dopisu</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Simulace pohovoru</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Kariérní strategie</li>
+                        </ul>
+
+                        <a href="#kontakt" class="btn btn-primary btn-full">Rezervovat termín</a>
+                    </div>
+
+                    <div class="pricing-card free-tier text-center">
+                        <div class="icon-big"><i class="bi bi-gift"></i></div>
+                        <h3>Úvodní konzultace</h3>
+                        <div class="pricing-price intro">
+                            <span class="amount">ZDARMA</span>
+                        </div>
+                        <p>30&nbsp;minut, kde se poznáme a zjistíme, jestli vám mohu pomoci.</p>
+                        <a href="#kontakt" class="btn btn-outline btn-full">Chci vyzkoušet zdarma</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt -->
+        <section id="kontakt" class="section section-contact">
+            <div class="container">
+                <div class="contact-card box-shadow" data-animate="fade-up">
+                    <div class="grid-contact">
+                        <div class="contact-info">
+                            <span class="subtitle">KONTAKT</span>
+                            <h2>Napište mi</h2>
+                            <p>Chcete získat první práci v IT? Nečekejte a udělejte první krok ještě dnes.</p>
+
+                            <div class="contact-links">
+                                <a href="mailto:info@cestadoit.cz" class="contact-link-item">
+                                    <div class="icon-box"><i class="bi bi-envelope-fill"></i></div>
+                                    <span>info@cestadoit.cz</span>
+                                </a>
+                                <a href="tel:+420734828782" class="contact-link-item">
+                                    <div class="icon-box"><i class="bi bi-telephone-fill"></i></div>
+                                    <span>+420 734 828 782</span>
+                                </a>
+                            </div>
+
+                            <div class="legal-block">
+                                <strong>Fakturační údaje:</strong><br>
+                                Petr Fiala<br>
+                                IČO: 74544811<br>
+                                Sídlo: Fanderlíkova 588/32, 616 00 Brno<br>
+                                <span class="small text-muted">Zapsán v živnostenském rejstříku</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-col">
+                            <form action="https://formspree.io/f/mqkenqrz" method="POST" class="modern-form">
+                                <input type="text" name="_gotcha" style="display:none">
+
+                                <div class="form-floating">
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Jméno"
+                                        required>
+                                    <label for="name">Vaše jméno</label>
+                                </div>
+
+                                <div class="form-floating">
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Email"
+                                        required>
+                                    <label for="email">Váš e-mail</label>
+                                </div>
+
+                                <div class="form-floating">
+                                    <textarea id="message" name="message" class="form-control" placeholder="Zpráva"
+                                        style="height: 150px" required></textarea>
+                                    <label for="message">Jak vám mohu pomoci?</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-full">
+                                    Odeslat zprávu <i class="bi bi-send"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Cesta do IT. Všechna práva vyhrazena.</p>
+            <p class="small">Vytvořeno s citem pro detail.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
