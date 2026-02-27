@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,17.890879)">
+        <g transform="matrix(1,0,0,1,17.5,-86.5)">
+            <path d="M830,1113L817,1111L249,1750L286,1754L830,1113Z" style="fill:rgb(23,79,77);"/>
+            <path d="M838,1112L346,1751L935,1752L976,1112L838,1112Z" style="fill:rgb(23,79,77);"/>
+            <path d="M976,1112L985,1184L1023,1752L1626,1751L1136,1113L976,1112Z" style="fill:rgb(23,79,77);"/>
+            <path d="M1136,1113L1150,1112L1716,1752L1686,1754L1136,1113Z" style="fill:rgb(23,79,77);"/>
+            <g transform="matrix(2.73913,0,0,1,-1703.478261,-0)">
+                <path d="M969,1256L991,1256L988,1182L970,1182L968,1246L969,1256Z" style="fill:rgb(23,79,77);"/>
+            </g>
+            <g transform="matrix(1.77551,0,0,1,-759.061224,-0)">
+                <path d="M961,1328L997,1329L1002,1399L953,1401L961,1328Z" style="fill:rgb(23,79,77);"/>
+            </g>
+            <path d="M946,1488L1017,1489L1030,1595L937,1593L946,1488Z" style="fill:rgb(23,79,77);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-40.630616,214.1169)">
+            <text x="413.737px" y="715.386px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:490.667px;fill:rgb(23,79,77);">do</text>
+            <g transform="matrix(805.518746,0,0,805.518746,1664.838352,715.385937)">
+            </g>
+            <text x="1061.486px" y="715.386px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:805.519px;fill:rgb(239,95,85);">IT</text>
+        </g>
+        <g transform="matrix(1,0,0,1,328,112.109121)">
+            <g transform="matrix(256.790611,0,0,256.790611,654.989191,392)">
+            </g>
+            <text x="53.011px" y="392px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:256.791px;fill:rgb(23,79,77);">Cesta</text>
+        </g>
+    </g>
+</svg>

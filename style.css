@@ -708,14 +708,26 @@ p {
 .hero-img {
     filter: drop-shadow(0 30px 60px rgba(23, 79, 77, 0.15));
     border-radius: var(--border-radius-xl);
-    transform: perspective(1000px) rotateY(-8deg) rotateX(2deg);
-    transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
     margin-bottom: -6rem;
     display: block;
+    animation: floating-img 6s ease-in-out infinite;
+}
+
+@keyframes floating-img {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
 }
 
 .hero-img:hover {
-    transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.02);
+    transform: scale(1.02);
 }
 
 .custom-shape-divider-bottom {
