@@ -76,4 +76,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const animatedElements = document.querySelectorAll('[data-animate]');
     animatedElements.forEach(el => observer.observe(el));
+
+    // Form Submission Handling
+    const contactForm = document.getElementById('contact-form');
+    const formResult = document.getElementById('form-result');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(contactForm);
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const submitBtnText = submitBtn.querySelector('span');
+
+            formResult.innerHTML = "Odesílám...";
+            formResult.style.display = "block";
+            formResult.className = "form-result loading";
+            submitBtn.disabled = true;
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+                .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                        formResult.innerHTML = "Zpráva byla úspěšně odeslána! Ozvu se vám co nejdříve.";
+                        formResult.className = "form-result success";
+                        contactForm.reset();
+                    } else {
+                        console.log(response);
+                        formResult.innerHTML = json.message || "Něco se nepovedlo. Zkuste to prosím znovu.";
+                        formResult.className = "form-result error";
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+                    formResult.innerHTML = "Omlouvám se, došlo k chybě při spojení se serverem.";
+                    formResult.className = "form-result error";
+                })
+                .then(function () {
+                    submitBtn.disabled = false;
+                    setTimeout(() => {
+                        // formResult.style.display = "none";
+                    }, 5000);
+                });
+        });
+    }
 });
